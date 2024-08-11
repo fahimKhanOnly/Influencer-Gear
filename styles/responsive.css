@@ -68,4 +68,7 @@
     .hero-contents > p{
         font-size: 0.8rem;
     }
+    .sponsor-container > img{
+        width: 79px;
+    }
 }

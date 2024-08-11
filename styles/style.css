@@ -12,6 +12,12 @@ header{
     padding-left: 15px;
     padding-right: 15px;
 }
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 ul{
     list-style-type: none;
 }
@@ -94,3 +100,14 @@ nav > i{
     border-radius: 20px;
 }
 /* Header section ends here */
+
+/* Sponsor section starts here */
+.sponsor-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px 55px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+/* Sponsor section ends here */
