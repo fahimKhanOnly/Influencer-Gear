@@ -1,0 +1,22 @@
+body{
+    scroll-behavior: smooth;
+    color: rgb(51, 51, 51);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    max-width: 1200px;
+    margin: 50px auto 80px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
