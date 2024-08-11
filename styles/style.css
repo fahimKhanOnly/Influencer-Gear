@@ -19,4 +19,78 @@ a{
     text-decoration: none;
     color: rgb(51, 51, 51);
 }
+.primary-btn{
+    background-color: rgb(207, 62, 111);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
 
+
+
+/* Header section starts here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+nav > h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+nav > ul{
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    right: 55px;
+}
+nav > ul > li{
+    font-size: 1rem;
+    font-weight: 600;
+}
+nav > i{
+    font-size: 1.4rem;
+}
+.nav-icon{
+    display: none;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-contents{
+    max-width: 700px;
+    padding-right: 40px;
+}
+.hero-contents > h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.hero-contents > p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 14px;
+    margin-bottom: 25px;
+}
+.hero-banner{
+    max-width: fit-content;
+    background: url(../assets/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero-banner > img{
+    max-width: 390px;
+}
+.hero-contents > button{
+    border-radius: 20px;
+}
+/* Header section ends here */
