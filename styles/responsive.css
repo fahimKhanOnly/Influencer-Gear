@@ -1,3 +1,12 @@
+@media screen and (max-width: 1095px) {
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .collection-container > a{
+        margin-right: 230px;
+    }
+}
+
 @media screen and (max-width: 815px) {
     nav > h1{
         font-size: 1.36rem;
@@ -23,6 +32,15 @@
     .hero-contents > p{
         text-align: center;
     }
+    .card > img{
+        width: 275px;
+    }
+    .card-info{
+        width: 275px;
+    }
+    .collection-container > a{
+        margin-right: 200px;
+    }
 }
 @media screen and (max-width: 700px) {
     header{
@@ -42,6 +60,19 @@
     }
     .hero-contents > h1{
         font-size: 2.4rem;
+    }
+    .collections{
+        display: flex;
+        flex-direction: column;
+    }
+    .card > img{
+        width: 300px;
+    }
+    .card-info{
+        width: 300px;
+    }
+    .collection-container > a{
+        margin-right: 130px;
     }
 }
 @media screen and (max-width: 425px) {
@@ -68,7 +99,25 @@
     .hero-contents > p{
         font-size: 0.8rem;
     }
+    .sponsor-container{
+        margin-bottom: 50px;
+    }
     .sponsor-container > img{
         width: 79px;
+    }
+    .collection-container > h1{
+        font-size: 1.9rem;
+    }
+    .card{
+        padding: 18px;
+    }
+    .card > img{
+        width: 260px;
+    }
+    .card-info{
+        width: 260px;
+    }
+    .collection-container > a{
+        margin-right: 40px;
     }
 }
