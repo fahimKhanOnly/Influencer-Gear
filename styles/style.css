@@ -192,3 +192,36 @@ nav > i{
     color: rgba(122, 122, 122, 0.932);
 }
 /* Collection section ends here */
+
+/* Featured section starts here */
+.featured-container{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.featured-contents{
+    max-width: 60%;
+}
+.featured-contents > h1{
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+.featured-contents > p{
+    font-size: 1rem;
+    font-weight: 800;
+    color:  rgba(122, 122, 122, 0.932);
+    max-width: 75%;
+    margin: 20px 0;
+}
+.featured-contents > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 160px;
+    height: 40px;
+    border-radius: 4px;
+}
+/* Featured section ends here */
