@@ -225,3 +225,37 @@ nav > i{
     border-radius: 4px;
 }
 /* Featured section ends here */
+
+/* Footer section starts here */
+footer{
+    background-color: rgb(10, 8, 38);
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-section{
+    display: flex;
+    gap: 20px;
+}
+.contact-section > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    background-color: grey;
+    padding: 5px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+/* Footer section ends here */

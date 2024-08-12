@@ -154,4 +154,10 @@
     .featured-contents > h1{
         font-size: 1.8rem;
     }
+    .footer-container{
+        height: 330px;
+    }
+    .contact-section > a{
+        font-size: 1rem;
+    }
 }
